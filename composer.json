@@ -1,6 +1,6 @@
 {
   "name": "wpengine/advanced-custom-fields-pro",
-  "description": "Advanced Custom Fields PRO - Cleaned (no distributor patch)",
+  "description": "Advanced Custom Fields PRO - Cleaned & Hardened (no distributor patch)",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
   "autoload": {

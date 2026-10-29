@@ -31,6 +31,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
+
+// ACF Hardened Build -- 2026-10-29: third-party free, HubSpot hook via MU-plugin.
+if (!defined('ACF_HARDENED')) define('ACF_HARDENED', true);
 }
 
 if ( ! class_exists( 'ACF' ) ) {
