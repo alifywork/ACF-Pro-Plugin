@@ -1,0 +1,21 @@
+{
+  "name": "wpengine/advanced-custom-fields-pro",
+  "description": "Advanced Custom Fields PRO - Cleaned (no distributor patch)",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "ACF\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "WP Engine"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true,
+    "classmap-authoritative": true
+  },
+  "require": {}
+}
