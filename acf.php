@@ -6,14 +6,14 @@
  * @author  WP Engine
  *
  * @wordpress-plugin
- * Plugin Name:       Advanced Custom Fields PRO
- * Plugin URI:        https://www.advancedcustomfields.com
+ * Plugin Name:       Alify Fields Pro
+ * Plugin URI:        https://aapki-site.com
  * Description:       Customize WordPress with powerful, professional and intuitive fields.
  * Version:           6.8.9
- * Author:            WP Engine
- * Author URI:        https://wpengine.com/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields
- * Update URI:        https://www.advancedcustomfields.com/pro
- * Text Domain:       acf
+ * Author:            Alify
+ * Author URI:        https://aapki-site.com
+ * Update URI:        https://aapki-site.com
+ * Text Domain:       alify-fields
  * Domain Path:       /lang
  * Requires PHP:      7.4
  * Requires at least: 6.2
