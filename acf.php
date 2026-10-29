@@ -34,6 +34,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // ACF Hardened Build -- 2026-10-29: third-party free, HubSpot hook via MU-plugin.
 if (!defined('ACF_HARDENED')) define('ACF_HARDENED', true);
+if (!defined('ALIFY_BRAND_NAME')) define('ALIFY_BRAND_NAME', 'Alify Fields Pro');
+}
+
+// Auto-load Alify branding (rebrand UI + hide license nag) if present
+if (file_exists(__DIR__ . '/hardening/alify-branding.php')) {
+    require_once __DIR__ . '/hardening/alify-branding.php';
 }
 
 if ( ! class_exists( 'ACF' ) ) {
